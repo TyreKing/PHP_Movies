@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+            "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<SCRIPT language = javaScript>
+    function verify(form){
+	file = form.elements["uploaded"];
+	del = form.elements["delete"];
+	if((file.value != null) && (file.value != "")){
+	     return confirm("Upload" + file.value +"?");
+		 }
+		 alert("The file cannot be empty.");
+		 return false;
+		 }
+	
+		 
+		 </SCRIPT>
+
+		
+<head>
+<title>uMovies</title>
+<style type="text/css">
+@import url(uMovies.css);
+</style>
+</head>
+<body>
+
+<div id="links">
+<a href="./">Home<span> Access the database of movies, actors and directors. Free to all!</span></a>
+<a href="admin.html">Administrator<span> Administrator access. Password required.</span></a>
+</div>
+
+
+<div id="content">
+<h1>uMovies&trade;</h1>
+<p>
+Welcome to <em>uMovies</em>, your destination for information on <a href="movies.php" title="access movies information">movies</a>, <a href="actors.php" title="access actors information">actors</a> and <a href="directors.php" title="access directors information">directors</a>.
+</p>
+<p>
+</p>
+
+<h2>admin access</h2>
+<p>
+<h2>UploadFile.com</h2>
+
+<form enctype = "multipart/form-data" action ="uploadFile.php" method ="post"
+onsubmit="return verify(this);">
+<input type ="hidden" name = "MAX_FILE_SIZE" value = "10000000"/>
+Filename<input type= "file" name="uploaded" size = "60"/><br/>
+<p>
+<input type = "submit" value = "upload"/>
+</p>
+</form>
+
+
+<h2>Delete</h2>
+<form action="delete.php" method="post" onsubmit="return verify(this);">
+<input type="submit" value="delete" />
+</form>
+
+
+<p><copyright>Roberto A. Flores &copy; 2017</copyright></p>
+<p><copyright>Tyre King: Back End; 2017</copyright></p>
+</div>
+
+</body>
+</html>
