@@ -1,4 +1,13 @@
 # PHP_Movies
-Take in a text document that is pre-formatted and categorize it by Movie title, Actors, and Directors.
+This website recieves a text document that is pre-formatted and categorizes it by Movie title, Actors, and Directors.
+
+<p> The tabs labeled Movies, Actors, and Directors lead to information to their respective categories. If a specific movie title is clicked, it will show you who were the actors and directors of the movie, and when it was produced. </p>
+
+
+<p>If a specific actor is clicked, it will show what movie they played in and what role they played.</p>
+<p> If a specific director is clicked, it will show what movies they have directed</p>
+
 
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/home.png)
+
+
