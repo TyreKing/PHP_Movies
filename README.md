@@ -10,12 +10,12 @@ This website recieves a text document that is pre-formatted and categorizes it b
 
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/Actors.png)
 
-<p>If a specific movie is clicked, it will show when the movie was produced who played in it and who directed it.</p>
+<p>If a specific movie is clicked, it will show when the movie was produced, who played in it, and who directed it.</p>
 
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/Movie.png)
 
 
-<p> If a specific director is clicked, it will show what movies they have directed</p>
+<p> If a specific director is clicked, it will show what movies they have directed. If a specific actor is clicked it will show the gender of the actor and what movies the actor has played in.</p>
 
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/Directors.png)
 
