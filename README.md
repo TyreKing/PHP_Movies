@@ -19,6 +19,9 @@ This website recieves a text document that is pre-formatted and categorizes it b
 
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/Directors.png)
 
+![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/director.png)
+
+
 
 
 
