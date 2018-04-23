@@ -8,13 +8,10 @@ This website recieves a text document that is pre-formatted and categorizes it b
 
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/admin.png)
 
-
-<p>If a specific actor is clicked, it will show what movie they played in and what role they played.</p>
-
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/Actors.png)
 
+<p>If a specific actor is clicked, it will show what movie they played in and what role they played.</p>
 <p> If a specific director is clicked, it will show what movies they have directed</p>
-
 ![alt text](https://raw.githubusercontent.com/TyreKing/PHP_Movies/master/Directors.png)
 
 
